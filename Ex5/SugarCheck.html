@@ -1,0 +1,32 @@
+<!--
+Tal Rofeh
+301905154
+Nadav Eshed
+201656147
+-->
+
+<!DOCTYPE html5>
+<html>
+			<head>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+				<link rel = "stylesheet" href = "SugarCheck.css" />
+				<script type = "text/javascript" src="SugarCheck.js"></script>
+				<label id="caption" class="captionStyle">GlucoseTracker</label> <!--header of glucose tracker-->
+			</head>
+			<body>
+				<div class="line1"> <!--div that includes time text box and sugar units presentation-->
+					<input id="time" class="timeStyle" type="time" placeholder="Time"></input> 
+					<label id="type" class="typeStyle">Glucose [mg/dl]</label>
+				</div>
+				<div class="line2"> <!--div that includes date text box and sugar value input box-->
+					<input id="date" class="dateStyle" type="date" placeholder="Date"></input>
+					<input id="GlucoseQuantity" class="GlucoseQuantityStyle" type="number" placeholder="Glucose Result"></input>
+				</div>
+				<div class="line3"> <!--div that includes notes text box and the save button-->
+					<input id="notes" class="notesStyle" placeholder="Notes"></input>
+					<button id="saveInfo" class="saveInfoStyle">Save</button>
+				</div>
+				<button id="showData" class="showDataStyle">Show Data</button> <!--show data button-->
+				<div id="SugarData" class="SugarStyle"></div> <!--sugar data table-->
+			</body>
+</html>

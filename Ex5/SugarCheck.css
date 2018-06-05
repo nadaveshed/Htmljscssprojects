@@ -1,0 +1,182 @@
+/*
+Tal Rofeh
+301905154
+Nadav Eshed
+201656147
+*/
+
+.captionStyle{ /*caption style*/
+	font-size : 40px;
+	color : white;
+	padding: 2px, 2px, 2px, 200px;
+	background-color: #FFA500;
+	display: block;
+	border: #FF8C00;
+	padding-left: 30px;
+	height: 70px;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+.line1{ /*div that includes time text box and sugar units presentation styling*/
+	margin-top: 5px;
+	margin-left:100px;
+}
+
+.timeStyle{ /*time text box style*/
+	font-size : 18px;
+	color : black;
+	padding: 2px, 2px, 2px, 15px;
+	border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid grey;
+	
+}
+
+.typeStyle{ /*sugar units style*/
+	font-size : 18px;
+	color : black;
+	margin-left:320px;
+	background-color: white;
+}
+
+.line2{ /*div that includes date text box and sugar value input box styling*/
+	margin-top: 5px;
+	margin-left:100px;
+}
+
+.dateStyle{ /*date text box style*/
+	font-size : 18px;
+	color : black;
+	width: 300px;
+	text-align: left;
+	border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid grey;
+}
+
+.GlucoseQuantityStyle{ /*Sugar Quantity style*/
+	font-size : 40px;
+	padding: 2px, 2px, 2px, 2px;
+	text-align: center;
+	margin-left:5px;
+	width: 300px;
+	background-color: white;
+	border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid orange;
+}
+
+.line3{ /*div that includes notes text box and the save button styling*/
+	margin-top: 5px;
+	margin-left:100px;
+}
+
+.notesStyle{ /*notes text box style*/
+	font-size : 18px;
+	color : black;
+	padding: 2px, 2px, 2px, 10px;
+	border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid grey;
+	width: 300px;
+}
+
+.saveInfoStyle{ /*save Information button style*/
+	font-size : 20px;
+	color : black;
+	height: 35px;
+	width: 300px;
+	background-color: #D3D3D3;
+	margin-left:5px;
+}
+
+.showDataStyle{ /*show data button style*/
+	font-size : 20px;
+	color : black;
+	height: 35px;
+	width: 609px;
+	background-color: #D3D3D3;
+	margin-top: 5px;
+	margin-left:100px;
+}
+
+.TableDateStyle{ /*table date row style*/
+	font-size: 14px;
+	color:grey;
+	font-weight:bold;
+	background-color:#F5F5DC;
+	font-family: "Arial";
+	padding: 14px 14px 14px 14px;
+}
+
+.TableInfoStyle{ /*table sugar value, time and notes row style*/
+	background-color:white;
+	padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.MyQuantity{ /*sugar value in row style*/
+	font-size: 14px;
+	color: black;
+	font-weight:bold;
+	padding-left: 10px;
+}
+
+.MyNotes{ /*notes in row style*/
+	font-size: 14px;
+	color: grey;
+	font-weight:bold;
+	float: right;
+    padding-right: 5px;
+}
+
+.MyTime{ /*time in row style*/
+	font-size: 14px;
+	color: grey;
+	font-weight:bold;
+	padding-left: 10px;
+}
+
+.breakline{  /*line between rows style*/
+	background-color:#F5F5DC;
+	height: 2px;
+	color: #F5F5DC;
+}
+
+.tblBorder{ /*table border style*/
+	border: solid grey 2px;
+}
+
+.SugarStyle{ /*table position style*/
+	padding-left : 500px;
+	padding-top : 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { /*disable arrows for number input*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=time]::-webkit-inner-spin-button, 
+input[type=time]::-webkit-outer-spin-button { /*disable arrows for time input*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { /*disable arrows for date input*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}

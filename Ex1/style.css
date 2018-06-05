@@ -1,0 +1,139 @@
+body{
+    background-color: peachpuff;
+}
+
+.header{ 
+    height: 250px;
+    padding: 2px;
+    margin: 2px;
+    width: 100%;
+    box-shadow:  20px 7px 10px #A9A9A9;
+}
+
+.header h1{
+    position: absolute;
+    color: mediumblue;
+    background-color: cover;
+    font-size: 70px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    padding-left: 40%;
+    text-align: center;
+    display: inline;
+}
+
+.nav{
+    background-color: #1E90FF;
+    text-align: center;    
+    font-size: 10px;  
+    padding: 2px;
+    margin: 2px;
+    height: 30%;
+    width: 90.8%;
+	position: relative;
+    padding: 0px 65px;
+    border: 5px solid black;
+    margin: 5px;
+	font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+	text-decoration: none;
+    color: whitesmoke;
+	border-style: outset;
+	border-color:gray;
+    border-radius: 25px;
+}
+
+.main{
+    background-color: cover;
+    display: inline-block;
+    height: 610px;
+    width: 100%;
+    text-align: center;     
+}
+
+.sideLeft{
+    font-size: 20px;
+    width: 20%;
+    height: 600px;
+    padding: 2px;
+    margin: 2px;
+    display: inline-block;
+    float: left;
+}
+
+.sideRight{
+    display: inline-block;
+    margin: 5px;
+    height: 600px;
+    width: 20%;
+}
+
+.sidein1{ 
+    display: inline-block;
+    height: 295px;
+    width: 100%;
+}
+
+.sidein2{
+    background-color: palegoldenrod;  
+    display: inline-block;
+    height: 295px;
+    width: 100%;
+}
+
+.middle{
+    margin: auto;
+    padding: 2px;
+    width: 58.5%;
+    height: 600px;
+    display: inline-block;
+    float: left;
+}
+
+.section1{
+    border-color: #424242;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, serif;
+    height: 60%;
+    width: 66.5%;
+    display: inline-block;
+    
+}
+
+.section2{
+    display: inline-block;
+    height: 37%;
+    width: 79%;
+     margin-left: 40px;
+    text-align: center;
+    margin: auto 0;
+}
+
+fieldset{ 
+    position: absolute;
+    background-color: papayawhip;
+    display: block;
+    border-color:#424242;
+    border-width: 10px;
+    //text-shadow:0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 55px black, 0 0 75px;
+}
+
+.footer{
+    background-color: grey;
+    width: 100%;
+    padding: 2px;
+    margin: 2px;
+    display: inline-block;
+    float: bottom;
+    border-radius: 25px;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center; 
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, serif;
+    text-shadow:0 0 10px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px white, 0 0 30px white, 0 0 40px black, 0 0 55px black, 0 0 75px;
+}
+
+
+label {
+	font-weight: bold;
+    text-shadow: 1px 1px #d3d3d3 ;   
+}

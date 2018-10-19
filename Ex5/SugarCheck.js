@@ -1,10 +1,3 @@
-/*
-Tal Rofeh
-301905154
-Nadav Eshed
-201656147
-*/
-
 var mainFunction = (function() {
 	var itemCount = 0; // number of sugar tests stored in the local storage
 		
